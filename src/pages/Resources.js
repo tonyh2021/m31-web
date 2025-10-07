@@ -292,22 +292,6 @@ const research_articles = [
     link: "https://www.nature.com/articles/d41586-023-03803-y",
     type: "viewpoints",
   },
-  {
-    title:
-      "The Economic, Political, and Societal Consequences of Disrupting Health Care Delivery with Artificial Intelligence",
-    authors: [
-      "Senthujan Senkaiahliyan",
-      "Allan S. Detsky",
-      "Jun Ma",
-      "Patrick R. Lawler",
-      "Jasika Paramasamy",
-      "Jacob J. Visser",
-    ],
-    journal: "Journal of General Internal Medicine",
-    date: "May 8, 2025",
-    link: "https://www.springermedicine.com/artificial-intelligence/the-economic-political-and-societal-consequences-of-disrupting-h/50960452#:~:text=However%2C%20this%20transformation%20presents%20significant,it%20crucial%20for%20healthcare%20professionals",
-    type: "viewpoints",
-  },
 ];
 
 function sortByDateDesc(arr) {
