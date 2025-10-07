@@ -1,70 +1,195 @@
-# Getting Started with Create React App
+# M31 Biomedical AI Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Official website for M31 Biomedical AI - a non-profit research organization pioneering advancements in biomedical imaging through cutting-edge AI.
 
-## Available Scripts
+## 📋 About
 
-In the project directory, you can run:
+M31 Biomedical AI combines scientific excellence with real-world impact to transform the future of medical imaging. Our expertise spans:
 
-### `npm start`
+- Neurodegenerative disease research
+- Custom AI model development
+- Radiology workflow enhancement
+- Medical image segmentation powered by cutting-edge foundation models
 
-Runs the app in the development mode.\
+## 🚀 Tech Stack
+
+- **Frontend Framework**: React 18.3.1
+- **Routing**: React Router DOM 7.4.1
+- **UI Framework**: Bootstrap 5.3.3, React Bootstrap 2.10.5
+- **Icons**: React Icons 5.5.0
+- **Build Tool**: React Scripts 5.0.1
+- **Deployment**: GitHub Pages
+
+## 📦 Installation
+
+### Prerequisites
+
+- Node.js (v14.0.0 or higher recommended)
+- npm or yarn
+
+### Setup
+
+1. Clone the repository
+
+```bash
+git clone <repository-url>
+cd m31-web
+```
+
+2. Install dependencies
+
+```bash
+npm install
+```
+
+## 🛠️ Development
+
+### Start Development Server
+
+```bash
+npm start
+```
+
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The page will reload when you make changes.
 
-### `npm test`
+### Run Tests
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm test
+```
 
-### `npm run build`
+Launches the test runner in interactive watch mode.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Build for Production
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm run build
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Builds the app for production to the `build` folder, optimized for best performance.
 
-### `npm run eject`
+## 📁 Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+m31-web/
+├── public/                    # Static assets
+│   ├── index.html            # HTML template
+│   ├── m31logolight.png      # Logo image
+│   └── manifest.json         # PWA configuration
+├── src/
+│   ├── assets/               # Font assets
+│   │   ├── Montserrat/       # Montserrat font
+│   │   └── Satoshi_Complete/ # Satoshi font
+│   ├── images/               # Image assets
+│   ├── pages/                # Page components
+│   │   ├── Home.js           # Homepage
+│   │   ├── Products.js       # Products page
+│   │   ├── Services.js       # Services page
+│   │   ├── Resources.js      # Resources page
+│   │   ├── Contact.js        # Contact page
+│   │   ├── About.js          # About page
+│   │   └── helpers/          # Helper components
+│   │       ├── Article.js    # Article component
+│   │       ├── AuthorList.js # Author list component
+│   │       ├── Footer.js     # Footer component
+│   │       ├── NewsletterForm.js # Newsletter form component
+│   │       └── TeamSection.js    # Team section component
+│   ├── App.js                # Main application component
+│   ├── Navbar.js             # Navigation bar component
+│   ├── index.js              # Application entry point
+│   └── App.css               # Global styles
+├── package.json              # Project configuration
+└── README.md                 # Project documentation
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🌐 Website Pages
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Home**: Showcases M31's mission, services, and highlighted articles
+- **Products**: Displays AI products and solutions
+- **Services**: Details the services offered
+  - Medical Image Segmentation
+  - Foundation Model Deployment
+  - Research Collaboration
+- **Resources**: Published papers and research resources
+- **Contact**: Contact information and form
+- **About**: Team introduction and company information
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🎨 Key Features
 
-## Learn More
+- **Responsive Design**: Adapts to various devices and screen sizes
+- **Video Background**: Dynamic video background showcasing medical image segmentation
+- **Interactive Service Display**: Click icons to view detailed service information
+- **Article Showcase**: Highlights important academic papers published by the team
+- **Team Introduction**: Features scientist team members and their achievements
+- **Newsletter Subscription**: Users can subscribe to latest updates
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚢 Deployment
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Deploy to GitHub Pages
 
-### Code Splitting
+The project is configured for GitHub Pages deployment:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm run deploy
+```
 
-### Analyzing the Bundle Size
+This will automatically build the project and deploy to GitHub Pages.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Manual Deployment
 
-### Making a Progressive Web App
+1. Build the project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm run build
+```
 
-### Advanced Configuration
+2. Deploy the contents of the `build` folder to your hosting server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🔧 Configuration
 
-### Deployment
+### Custom Fonts
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+The project uses custom fonts:
 
-### `npm run build` fails to minify
+- Montserrat (Variable Font)
+- Satoshi (Variable Font)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Font files are located in the `src/assets/` directory.
+
+### Environment Variables
+
+To configure environment variables, create a `.env` file in the project root directory.
+
+## 📝 Development Guide
+
+### Adding a New Page
+
+1. Create a new page component in the `src/pages/` directory
+2. Add route configuration in `src/App.js`
+
+### Modifying Styles
+
+- Global styles: Edit `src/App.css` or `src/index.css`
+- Page-specific styles: Edit the corresponding page's CSS file (e.g., `Home.css`)
+
+### Adding Images
+
+Place image files in the `src/images/` directory, then import and use them in components.
+
+## 🤝 Contributing
+
+Pull requests and issue reports are welcome.
+
+## 📄 License
+
+This project is private.
+
+## 📞 Contact
+
+For any questions or suggestions, please contact us through the website's contact page.
+
+---
+
+**M31 Biomedical AI** - Pioneering advancements in biomedical imaging through cutting-edge AI.
