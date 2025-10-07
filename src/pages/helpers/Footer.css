@@ -1,0 +1,39 @@
+.footer {
+    background: linear-gradient(to bottom, #ffffff, #a8dcf3, #87d5f4);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    color: #2b3a4b;
+    font-size: 0.95rem;
+    height: 30vh;
+  }
+  
+  .footer-icons {
+    margin-bottom: 1rem;
+  }
+  
+  .footer-icons a {
+    color: #2b3a4b;
+    font-size: 1.4rem;
+    margin: 0 12px;
+    transition: color 0.2s ease;
+  }
+  
+  .footer-icons a:hover {
+    color: #3da9fc;
+  }
+  
+  .footer-text p {
+    margin: 6px 0;
+  }
+  
+  .footer-text a {
+    color: #2b3a4b;
+    text-decoration: none;
+  }
+  
+  .footer-text a:hover {
+    text-decoration: underline;
+  }
