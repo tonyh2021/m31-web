@@ -1,24 +1,7 @@
-import React, { useState } from 'react';
+import React from "react";
 
 export default function NewsletterForm() {
-  const [formData, setFormData] = useState({
-    email: '',
-    firstName: '',
-    lastName: ''
-  });
-
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log('Submitted:', formData);
-    // add your API submission logic here
-  };
-
   return (
-
     <div className="newsletter-container">
       <div>
         <h2>Join our newsletter</h2>
@@ -32,7 +15,6 @@ export default function NewsletterForm() {
         />
         <button className="newsletter-button">SUBSCRIBE</button>
       </div>
-      
     </div>
   );
 }

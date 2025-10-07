@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Article from "./helpers/Article.js";
-import preprintfig from "../images/train-data.png";
 import footerImg from "../images/footer.jpg";
 import Footer from "./helpers/Footer.js";
 
@@ -293,10 +292,6 @@ const research_articles = [
     type: "viewpoints",
   },
 ];
-
-function sortByDateDesc(arr) {
-  return arr.slice().sort((a, b) => new Date(b.date) - new Date(a.date));
-}
 
 const TABS = [
   { key: "all", label: "Latest Releases" },
