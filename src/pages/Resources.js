@@ -276,21 +276,6 @@ const research_articles = [
     link: "#",
     type: "research",
   },
-  {
-    title:
-      "Generative AI could revolutionize health care — but not if control is ceded to big tech",
-    authors: [
-      "Augustin Toma",
-      "Senthujan Senkaiahliyan",
-      "Patrick R. Lawler",
-      "Barry Rubin",
-      "Bo Wang",
-    ],
-    journal: "Nature",
-    date: "November 30, 2023",
-    link: "https://www.nature.com/articles/d41586-023-03803-y",
-    type: "viewpoints",
-  },
 ];
 
 const TABS = [
